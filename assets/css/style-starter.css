@@ -9556,7 +9556,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 :root {
   --para-color: #777;
-  --heading-color: #2d2d43;
+  --heading-color: #2d2d43;  
   --theme-light: #efefef;
   --primary-color: #d17721;
   --bg-light: rgba(180, 109, 59, 0.07);
@@ -9564,7 +9564,8 @@ a.text-dark:hover, a.text-dark:focus {
   --bg-color: #fff;
   --footer-bg: #000;
   --breadcrumb-bg: #f3f3f3;
-  --card-bg: #fff; }
+  --card-bg: rgb(218, 185, 185); 
+  --process: #eee;}
 
 [data-theme="dark"] {
   --para-color: #8c8c8c;
@@ -9576,7 +9577,8 @@ a.text-dark:hover, a.text-dark:focus {
   --bg-color: #111;
   --footer-bg: #333;
   --breadcrumb-bg: #333;
-  --card-bg: #222; }
+  --card-bg: #222; 
+  --process: #eee;}
 
 .noscroll {
   overflow: hidden;
@@ -9673,7 +9675,9 @@ p.white {
   overflow: hidden; }
 
 .radius-image {
-  border-radius: var(--border-radius); }
+  border-radius: var(--border-radius); 
+  height: 250px;
+  width: 100%;}
 
 /*-- container --*/
 .container {
@@ -10668,7 +10672,7 @@ a.title-head {
   line-height: 30px;
   margin-bottom: 15px;
   display: inline-block;
-  color: var(--heading-color); }
+  color: var(--process); }
 
 .area-box span.fa {
   font-size: 30px;
